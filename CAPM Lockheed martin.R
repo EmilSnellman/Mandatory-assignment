@@ -4,8 +4,8 @@ install.packages("ggplot2")
 library(ggplot2)
 library(readxl)
 
-#data from excel file
-data <- read_excel("C:/Users/Sniemava/Downloads/Lockheed Martin returns and market returns.xlsx")
+#data from excel file (SET OWN FILE LOCATION)
+data <- read_excel("")
 
 #performing the regression
 data$Lockheed_Excess <- data$Lockheed - data$RF
