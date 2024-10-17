@@ -3,8 +3,8 @@ install.packages("plm")
 library(readxl)
 library(plm)
 
-# Read the Excel file
-panel_data <- read_excel("C:/Users/EmilSnellman/Downloads/3.xlsx")
+# Read the Excel file (SET OWN FILE LOCATION)
+panel_data <- read_excel("")
 
 # Convert the 'Date' column to Date format
 panel_data$Date <- as.numeric(panel_data$Date)
